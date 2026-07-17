@@ -24,7 +24,7 @@
 
   function fetchArticles() {
     if (!articlesPromise) {
-      articlesPromise = fetch("data/articles.json").then((res) => {
+      articlesPromise = fetch("articles.json").then((res) => {
         if (!res.ok) throw new Error("Impossible de charger les articles.");
         return res.json();
       });

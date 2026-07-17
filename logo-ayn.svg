@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" width="320" height="100" role="img" aria-label="Ayn — l'œil sur le monde">
+  <g fill="none" stroke="#C4A96E" stroke-width="4">
+    <path d="M6 50 Q60 6 114 50 Q60 94 6 50 Z"/>
+  </g>
+  <circle cx="60" cy="50" r="15" fill="#C4A96E"/>
+  <text x="140" y="66" font-family="Georgia, 'Times New Roman', serif" font-size="50" letter-spacing="6" fill="#F0EDE6">AYN</text>
+</svg>

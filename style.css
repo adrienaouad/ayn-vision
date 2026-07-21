@@ -378,7 +378,13 @@ img { max-width: 100%; display: block; }
 .article-image {
   width: 100%;
   border-radius: 4px;
-  margin-bottom: 32px;
+  margin-bottom: 8px;
+}
+
+.image-credit {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin: 0 0 32px;
 }
 
 .article-body {

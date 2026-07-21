@@ -32,7 +32,10 @@
       .join("");
 
     const imageHtml = article.image
-      ? '<img class="article-image" src="' + escapeHtml(article.image) + '" alt="' + escapeHtml(article.titre) + '">'
+      ? '<img class="article-image" src="' + escapeHtml(article.image) + '" alt="' + escapeHtml(article.titre) + '">' +
+        (article.image_credit
+          ? '<p class="image-credit">' + escapeHtml(article.image_credit) + "</p>"
+          : "")
       : "";
 
     container.innerHTML =
